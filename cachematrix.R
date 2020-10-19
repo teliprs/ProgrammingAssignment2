@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...) {
     return(inversmat)#returning cached inverse
   }
   mat<-x$get()
-  x$set(x)
   inverse <- solve(mat,..)#performing actual inverse
+  x$setinv(inverse)
   inverse
 }
