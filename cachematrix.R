@@ -17,8 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
-
 ## it will return the cached inverse if matrix has not been
 ## changed since last inverse calculation
 
